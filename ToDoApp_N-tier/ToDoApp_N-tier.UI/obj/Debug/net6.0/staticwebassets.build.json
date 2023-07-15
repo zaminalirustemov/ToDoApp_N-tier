@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "o0wGkoiGdTkvpvKj4WqRHeWbLtlBlbh0zEaP4UJFPqA=",
+  "Source": "ToDoApp_N-tier.UI",
+  "BasePath": "_content/ToDoApp_N-tier.UI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ToDoApp_N-tier.UI\\wwwroot",
+      "Source": "ToDoApp_N-tier.UI",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\wwwroot\\",
+      "BasePath": "_content/ToDoApp_N-tier.UI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ToDoApp_N-tier.UI.styles.css",
+      "SourceId": "ToDoApp_N-tier.UI",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\",
+      "BasePath": "_content/ToDoApp_N-tier.UI",
+      "RelativePath": "ToDoApp_N-tier.UI.styles.css",
+      "AssetKind": "All",
+      "AssetMode": "CurrentProject",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ApplicationBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ToDoApp_N-tier.UI.styles.css"
+    },
+    {
+      "Identity": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ToDoApp_N-tier.UI.bundle.scp.css",
+      "SourceId": "ToDoApp_N-tier.UI",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\",
+      "BasePath": "_content/ToDoApp_N-tier.UI",
+      "RelativePath": "ToDoApp_N-tier.UI.bundle.scp.css",
+      "AssetKind": "All",
+      "AssetMode": "Reference",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "ScopedCss",
+      "AssetTraitValue": "ProjectBundle",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ToDoApp_N-tier.UI.bundle.scp.css"
+    }
+  ]
+}

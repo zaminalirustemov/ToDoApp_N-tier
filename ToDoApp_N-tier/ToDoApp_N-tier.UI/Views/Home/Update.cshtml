@@ -1,0 +1,18 @@
+﻿@model WorkUpdateDto
+<form asp-action="update" asp-controller="home" method="post">
+    <div>
+        <input type="hidden" asp-for="Id" />
+        <span asp-validation-for="Id"></span>
+    </div>
+    <div class="form-group">
+        <label asp-for="Definition">Defination</label>
+        <input class="form-control" asp-for="Definition">
+        <span asp-validation-for="Definition"></span>
+    </div>
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" asp-for="IsCompleted">
+        <label class="form-check-label" asp-for="IsCompleted">IsCompleted</label>
+        <span asp-validation-for="IsCompleted"></span>
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+</form>

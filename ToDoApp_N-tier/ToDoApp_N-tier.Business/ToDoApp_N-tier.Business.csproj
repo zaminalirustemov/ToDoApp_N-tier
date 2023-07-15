@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>ToDoApp_N_tier.Business</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ToDoApp_N-tier.DataAccess\ToDoApp_N-tier.DataAccess.csproj" />
+    <ProjectReference Include="..\ToDoApp_N-tier.Dtos\ToDoApp_N-tier.Dtos.csproj" />
+  </ItemGroup>
+
+</Project>

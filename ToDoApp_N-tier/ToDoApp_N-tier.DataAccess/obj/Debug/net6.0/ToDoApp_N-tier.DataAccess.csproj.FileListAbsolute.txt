@@ -1,0 +1,17 @@
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\bin\Debug\net6.0\ToDoApp_N-tier.DataAccess.deps.json
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\bin\Debug\net6.0\ToDoApp_N-tier.DataAccess.runtimeconfig.json
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\bin\Debug\net6.0\ToDoApp_N-tier.DataAccess.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\bin\Debug\net6.0\ToDoApp_N-tier.DataAccess.pdb
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\bin\Debug\net6.0\ToDoApp_N-tier.Entities.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\bin\Debug\net6.0\ToDoApp_N-tier.Entities.pdb
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\obj\Debug\net6.0\ToDoApp_N-tier.DataAccess.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\obj\Debug\net6.0\ToDoApp_N-tier.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\obj\Debug\net6.0\ToDoApp_N-tier.DataAccess.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\obj\Debug\net6.0\ToDoApp_N-tier.DataAccess.AssemblyInfo.cs
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\obj\Debug\net6.0\ToDoApp_N-tier.DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\obj\Debug\net6.0\ToDoApp_N-tier.DataAccess.csproj.CopyComplete
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\obj\Debug\net6.0\ToDoApp_N-tier.DataAccess.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\obj\Debug\net6.0\refint\ToDoApp_N-tier.DataAccess.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\obj\Debug\net6.0\ToDoApp_N-tier.DataAccess.pdb
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\obj\Debug\net6.0\ToDoApp_N-tier.DataAccess.genruntimeconfig.cache
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.DataAccess\obj\Debug\net6.0\ref\ToDoApp_N-tier.DataAccess.dll

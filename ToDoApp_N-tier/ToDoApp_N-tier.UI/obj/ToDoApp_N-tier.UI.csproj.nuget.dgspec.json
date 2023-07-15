@@ -1,0 +1,331 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\ToDoApp_N-tier.UI.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Business\\ToDoApp_N-tier.Business.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Business\\ToDoApp_N-tier.Business.csproj",
+        "projectName": "ToDoApp_N-tier.Business",
+        "projectPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Business\\ToDoApp_N-tier.Business.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Business\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.DataAccess\\ToDoApp_N-tier.DataAccess.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.DataAccess\\ToDoApp_N-tier.DataAccess.csproj"
+              },
+              "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Dtos\\ToDoApp_N-tier.Dtos.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Dtos\\ToDoApp_N-tier.Dtos.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[12.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.DataAccess\\ToDoApp_N-tier.DataAccess.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.DataAccess\\ToDoApp_N-tier.DataAccess.csproj",
+        "projectName": "ToDoApp_N-tier.DataAccess",
+        "projectPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.DataAccess\\ToDoApp_N-tier.DataAccess.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.DataAccess\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Entities\\ToDoApp_N-tier.Entities.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Entities\\ToDoApp_N-tier.Entities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[7.0.9, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Dtos\\ToDoApp_N-tier.Dtos.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Dtos\\ToDoApp_N-tier.Dtos.csproj",
+        "projectName": "ToDoApp_N-tier.Dtos",
+        "projectPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Dtos\\ToDoApp_N-tier.Dtos.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Dtos\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Entities\\ToDoApp_N-tier.Entities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Entities\\ToDoApp_N-tier.Entities.csproj",
+        "projectName": "ToDoApp_N-tier.Entities",
+        "projectPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Entities\\ToDoApp_N-tier.Entities.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Entities\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\ToDoApp_N-tier.UI.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\ToDoApp_N-tier.UI.csproj",
+        "projectName": "ToDoApp_N-tier.UI",
+        "projectPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\ToDoApp_N-tier.UI.csproj",
+        "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\HP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Business\\ToDoApp_N-tier.Business.csproj": {
+                "projectPath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.Business\\ToDoApp_N-tier.Business.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[7.0.9, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.402\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
