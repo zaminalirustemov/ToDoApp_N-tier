@@ -17,3 +17,5 @@ C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Business\obj\De
 C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Business\obj\Debug\net6.0\refint\ToDoApp_N-tier.Business.dll
 C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Business\obj\Debug\net6.0\ToDoApp_N-tier.Business.pdb
 C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Business\obj\Debug\net6.0\ref\ToDoApp_N-tier.Business.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Business\bin\Debug\net6.0\ToDoApp_N-tier.Common.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Business\bin\Debug\net6.0\ToDoApp_N-tier.Common.pdb

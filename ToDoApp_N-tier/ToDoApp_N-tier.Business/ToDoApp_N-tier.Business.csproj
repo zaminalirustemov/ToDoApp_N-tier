@@ -9,9 +9,12 @@
 
   <ItemGroup>
     <PackageReference Include="AutoMapper" Version="12.0.1" />
+    <PackageReference Include="FluentValidation" Version="11.6.0" />
+    <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.6.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\ToDoApp_N-tier.Common\ToDoApp_N-tier.Common.csproj" />
     <ProjectReference Include="..\ToDoApp_N-tier.DataAccess\ToDoApp_N-tier.DataAccess.csproj" />
     <ProjectReference Include="..\ToDoApp_N-tier.Dtos\ToDoApp_N-tier.Dtos.csproj" />
   </ItemGroup>

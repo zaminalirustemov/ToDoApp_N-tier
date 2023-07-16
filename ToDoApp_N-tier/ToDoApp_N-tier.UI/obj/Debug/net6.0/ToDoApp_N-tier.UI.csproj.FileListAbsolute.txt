@@ -89,3 +89,7 @@ C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.UI\obj\Debug\ne
 C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.UI\obj\Debug\net6.0\ToDoApp_N-tier.UI.genruntimeconfig.cache
 C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.UI\obj\Debug\net6.0\ref\ToDoApp_N-tier.UI.dll
 C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.UI\bin\Debug\net6.0\AutoMapper.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.UI\bin\Debug\net6.0\FluentValidation.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.UI\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.UI\bin\Debug\net6.0\ToDoApp_N-tier.Common.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.UI\bin\Debug\net6.0\ToDoApp_N-tier.Common.pdb

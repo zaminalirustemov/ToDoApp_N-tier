@@ -1,7 +1,7 @@
-﻿using AutoMapper;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using ToDoApp_N_tier.Business.Interfaces;
 using ToDoApp_N_tier.Dtos.WorkDtos;
+using ToDoApp_N_tier.UI.Extensions;
 
 namespace ToDoApp_N_tier.UI.Controllers
 {
@@ -15,8 +15,8 @@ namespace ToDoApp_N_tier.UI.Controllers
         }
         public async Task<IActionResult> Index()
         {
-            List<WorkListDto> workListDtos = await _workService.GetAllAsync();
-            return View(workListDtos);
+            var response = await _workService.GetAllAsync();
+            return View(response.Data);
         }
 
         [HttpGet]
@@ -27,28 +27,27 @@ namespace ToDoApp_N_tier.UI.Controllers
         [HttpPost]
         public async Task<IActionResult> Create(WorkCreateDto workCreateDto)
         {
-            if (!ModelState.IsValid) return View(workCreateDto);
-            await _workService.CreateAsync(workCreateDto);
-            return RedirectToAction(nameof(Index));
+            var response= await _workService.CreateAsync(workCreateDto);
+            return this.ResponseRedirectToAction(response, nameof(Index));
         }
 
         [HttpGet]
         public async Task<IActionResult> Update(int id)
         {
-            return View(await _workService.GetByIdAsync<WorkUpdateDto>(id));
+            var response= await _workService.GetByIdAsync<WorkUpdateDto>(id);
+            return this.ResponseView(response);
         }
         [HttpPost]
         public async Task<IActionResult> Update(WorkUpdateDto workUpdateDto)
         {
-            if (!ModelState.IsValid) return View(workUpdateDto);
-            await _workService.UpdateAsync(workUpdateDto);
-            return RedirectToAction(nameof(Index));
+            var response= await _workService.UpdateAsync(workUpdateDto);
+            return this.ResponseRedirectToAction(response,nameof(Index));
         }
 
         public async Task<IActionResult> Remove(int id)
         {
-            await _workService.RemoveAsync(id);
-            return RedirectToAction(nameof(Index));
+            var respone= await _workService.RemoveAsync(id);
+            return this.ResponseRedirectToAction(respone, nameof(Index));
         }
     }
 }

@@ -1,10 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Linq.Expressions;
-using System.Text;
-using System.Threading.Tasks;
 using ToDoApp_N_tier.DataAccess.Contexts;
 using ToDoApp_N_tier.DataAccess.Interfaces;
 using ToDoApp_N_tier.Entities.Domains;
@@ -39,16 +34,14 @@ namespace ToDoApp_N_tier.DataAccess.Repositories
             _context.Set<T>().AddAsync(entity);
         }
 
-        public void Update(T entity)
+        public void Update(T entity,T unchangedEntity)
         {
-            var updatedEntity= _context.Set<T>().Find(entity.Id);
-            _context.Entry(updatedEntity).CurrentValues.SetValues(entity);
+            _context.Entry(unchangedEntity).CurrentValues.SetValues(entity);
         }
 
-        public void Remove(object id)
+        public void Remove(T entity)
         {
-            var deletedEntity=_context.Set<T>().Find(id);
-            _context.Set<T>().Remove(deletedEntity);
+            _context.Set<T>().Remove(entity);
         }
 
         public IQueryable<T> GetQuery()

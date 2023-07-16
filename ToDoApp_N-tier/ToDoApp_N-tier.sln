@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp_N-tier.DataAccess", "ToDoApp_N-tier.DataAccess\ToDoApp_N-tier.DataAccess.csproj", "{5A7CDBC9-B78B-4F11-9298-3080EA18E391}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp_N-tier.DataAccess", "ToDoApp_N-tier.DataAccess\ToDoApp_N-tier.DataAccess.csproj", "{5A7CDBC9-B78B-4F11-9298-3080EA18E391}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp_N-tier.Business", "ToDoApp_N-tier.Business\ToDoApp_N-tier.Business.csproj", "{ADBA400A-4FA9-4221-BC8D-DFD64FBA7E31}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp_N-tier.Business", "ToDoApp_N-tier.Business\ToDoApp_N-tier.Business.csproj", "{ADBA400A-4FA9-4221-BC8D-DFD64FBA7E31}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp_N-tier.Entities", "ToDoApp_N-tier.Entities\ToDoApp_N-tier.Entities.csproj", "{FF7167D4-BFF5-4B61-9D3D-BF85904315D1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp_N-tier.Entities", "ToDoApp_N-tier.Entities\ToDoApp_N-tier.Entities.csproj", "{FF7167D4-BFF5-4B61-9D3D-BF85904315D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp_N-tier.Dtos", "ToDoApp_N-tier.Dtos\ToDoApp_N-tier.Dtos.csproj", "{B025E4F8-FBED-4D05-9265-8710A4F5490B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp_N-tier.Dtos", "ToDoApp_N-tier.Dtos\ToDoApp_N-tier.Dtos.csproj", "{B025E4F8-FBED-4D05-9265-8710A4F5490B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp_N-tier.UI", "ToDoApp_N-tier.UI\ToDoApp_N-tier.UI.csproj", "{BF3C9CC4-CA5A-4221-9243-50C3C6858C97}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ToDoApp_N-tier.UI", "ToDoApp_N-tier.UI\ToDoApp_N-tier.UI.csproj", "{BF3C9CC4-CA5A-4221-9243-50C3C6858C97}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoApp_N-tier.Common", "ToDoApp_N-tier.Common\ToDoApp_N-tier.Common.csproj", "{57051E64-40D5-4ADF-81F3-F0AB71BC7123}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{BF3C9CC4-CA5A-4221-9243-50C3C6858C97}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BF3C9CC4-CA5A-4221-9243-50C3C6858C97}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BF3C9CC4-CA5A-4221-9243-50C3C6858C97}.Release|Any CPU.Build.0 = Release|Any CPU
+		{57051E64-40D5-4ADF-81F3-F0AB71BC7123}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{57051E64-40D5-4ADF-81F3-F0AB71BC7123}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{57051E64-40D5-4ADF-81F3-F0AB71BC7123}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{57051E64-40D5-4ADF-81F3-F0AB71BC7123}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

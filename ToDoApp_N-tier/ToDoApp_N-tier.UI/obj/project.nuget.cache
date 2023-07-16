@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "dgSpecHash": "JJf/cZu3QmJoKlIHVzTLVEEt4opQRWsSATVzpTIgFOkK5AI3EObZBM4E/D9eDCzPaSIeu1jTTKniK4+khrI2LA==",
+  "dgSpecHash": "nZIaXQcJ9MgyCYzGkR7bKlG8pIuYDK2/AsvHJWIfeKPNABYxPNqeI7Np+StV6pQvR7U0W6w8kGVG2k/LEAJCBQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\HP\\Desktop\\ToDoApp_N-tier\\ToDoApp_N-tier\\ToDoApp_N-tier.UI\\ToDoApp_N-tier.UI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\HP\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.core\\1.24.0\\azure.core.1.24.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\azure.identity\\1.6.0\\azure.identity.1.6.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation\\11.6.0\\fluentvalidation.11.6.0.nupkg.sha512",
+    "C:\\Users\\HP\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.6.0\\fluentvalidation.dependencyinjectionextensions.11.6.0.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\HP\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",

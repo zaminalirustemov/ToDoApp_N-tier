@@ -1,0 +1,12 @@
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Common\bin\Debug\net6.0\ToDoApp_N-tier.Common.deps.json
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Common\bin\Debug\net6.0\ToDoApp_N-tier.Common.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Common\bin\Debug\net6.0\ToDoApp_N-tier.Common.pdb
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Common\obj\Debug\net6.0\ToDoApp_N-tier.Common.csproj.AssemblyReference.cache
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Common\obj\Debug\net6.0\ToDoApp_N-tier.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Common\obj\Debug\net6.0\ToDoApp_N-tier.Common.AssemblyInfoInputs.cache
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Common\obj\Debug\net6.0\ToDoApp_N-tier.Common.AssemblyInfo.cs
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Common\obj\Debug\net6.0\ToDoApp_N-tier.Common.csproj.CoreCompileInputs.cache
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Common\obj\Debug\net6.0\ToDoApp_N-tier.Common.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Common\obj\Debug\net6.0\refint\ToDoApp_N-tier.Common.dll
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Common\obj\Debug\net6.0\ToDoApp_N-tier.Common.pdb
+C:\Users\HP\Desktop\ToDoApp_N-tier\ToDoApp_N-tier\ToDoApp_N-tier.Common\obj\Debug\net6.0\ref\ToDoApp_N-tier.Common.dll
